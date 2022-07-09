@@ -1,0 +1,216 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .promo {
+        min-height: 550px;
+        padding: 21px 10px 20px 10px;
+    }
+    
+    .reasons {
+        padding: 40px 0;
+
+        &__wrapper {
+            margin-top: 30px;
+            justify-content: center;
+        }
+        &__box {
+            margin: 10px 10px;
+        }
+    }
+
+    .consultation {
+        padding: 100px 10px 92px 10px;
+    }
+
+    .catalog {
+
+        &__content {
+            justify-content: space-evenly;
+        }        
+    }
+
+    .review {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .promo {
+
+        .header {
+            &__logo {
+                width: 200px;
+            }
+            &__official {
+                font-size: 12px;
+                span {
+                    font-size: 14px;
+                }                
+            }
+            &__contacts {
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
+        &__header {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        &__subheader {
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__icons {
+            margin-top: 50px;
+        }
+    }
+    .button_main {
+        margin-top: 50px 10px;
+    }
+
+    .carousel {
+        padding: 50px 0;   
+        
+        &__inner {            
+            width: 100%;
+            
+            img {                            
+                width: 100%;                
+            }
+        }
+        
+    }
+
+    .catalog {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+
+        &__tabs {
+            flex-direction: column;
+            margin-top: 40px;            
+        }
+
+        &__tab {
+            margin-top: 10px;
+        }
+        
+    }
+
+}
+
+@media (max-width: 575px) {
+    .promo {
+        .header {
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            &__logo {
+                width: 45%;
+                margin-right: 10px;
+            }
+            &__official {                
+                width: 50%;
+                font-size: 10px;
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+        &__wrapper {
+            align-items: center;
+            margin-top: 50px;
+        }
+        &__header {
+            display: block;
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center;
+        }
+        &__subheader {
+            display: block;
+            font-size: 16px;
+            line-height: 16px;
+            text-align: center;
+        }
+        &__icons {
+            width: 100%;
+        }
+        &__icon {
+            font-size: 12px;
+            line-height: 14px;
+            img {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .button_main {
+        margin-top: 40px;
+        width: 250px;
+    }
+   
+    .reasons {
+        &__header {
+            font-size: 20px;
+            
+        }
+    }
+
+    .consultation {
+        padding: 50px 10px 50px 10px;
+        .title_left {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+
+    .review {
+        &__post {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        &__text {
+            margin: 20px 20px;
+            .user {
+                text-align: center;
+            }
+            .opinion {
+                text-align: center;
+            }
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 320px;
+            height: 200px;
+            padding: 20px;
+        }
+        &__addr {
+            margin-bottom: 20px;
+        }
+        &__phone {
+            margin-top: 0;
+        }
+        &__social {
+            margin-top: 20px;
+        }
+    }
+
+    .modal {
+        width: 300px;
+        &__close {
+            top: 5px;
+            right: 5px;
+        }
+    }
+
+    .feed-form {
+        width: auto;
+    }
+}
